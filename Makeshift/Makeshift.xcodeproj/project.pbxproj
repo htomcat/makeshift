@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3F24CAE1E5867AF009DCD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F24CAD1E5867AF009DCD42 /* AppDelegate.swift */; };
+		F3F24CB01E5867AF009DCD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F24CAF1E5867AF009DCD42 /* ViewController.swift */; };
+		F3F24CB31E5867AF009DCD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F24CB11E5867AF009DCD42 /* Main.storyboard */; };
+		F3F24CB51E5867AF009DCD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F24CB41E5867AF009DCD42 /* Assets.xcassets */; };
+		F3F24CB81E5867AF009DCD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3F24CB61E5867AF009DCD42 /* LaunchScreen.storyboard */; };
+		F3F24CC31E5867AF009DCD42 /* MakeshiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F24CC21E5867AF009DCD42 /* MakeshiftTests.swift */; };
+		F3F24CCE1E5867AF009DCD42 /* MakeshiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F24CCD1E5867AF009DCD42 /* MakeshiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F24CBF1E5867AF009DCD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F24CA21E5867AF009DCD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F24CA91E5867AF009DCD42;
+			remoteInfo = Makeshift;
+		};
+		F3F24CCA1E5867AF009DCD42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F24CA21E5867AF009DCD42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F24CA91E5867AF009DCD42;
+			remoteInfo = Makeshift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3F24CAA1E5867AF009DCD42 /* Makeshift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makeshift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F24CAD1E5867AF009DCD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3F24CAF1E5867AF009DCD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3F24CB21E5867AF009DCD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3F24CB41E5867AF009DCD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F24CB71E5867AF009DCD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3F24CB91E5867AF009DCD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F24CBE1E5867AF009DCD42 /* MakeshiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeshiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F24CC21E5867AF009DCD42 /* MakeshiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeshiftTests.swift; sourceTree = "<group>"; };
+		F3F24CC41E5867AF009DCD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F24CC91E5867AF009DCD42 /* MakeshiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeshiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F24CCD1E5867AF009DCD42 /* MakeshiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeshiftUITests.swift; sourceTree = "<group>"; };
+		F3F24CCF1E5867AF009DCD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F24CA71E5867AF009DCD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CBB1E5867AF009DCD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CC61E5867AF009DCD42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3F24CA11E5867AF009DCD42 = {
+			isa = PBXGroup;
+			children = (
+				F3F24CAC1E5867AF009DCD42 /* Makeshift */,
+				F3F24CC11E5867AF009DCD42 /* MakeshiftTests */,
+				F3F24CCC1E5867AF009DCD42 /* MakeshiftUITests */,
+				F3F24CAB1E5867AF009DCD42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F24CAB1E5867AF009DCD42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F24CAA1E5867AF009DCD42 /* Makeshift.app */,
+				F3F24CBE1E5867AF009DCD42 /* MakeshiftTests.xctest */,
+				F3F24CC91E5867AF009DCD42 /* MakeshiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F24CAC1E5867AF009DCD42 /* Makeshift */ = {
+			isa = PBXGroup;
+			children = (
+				F3F24CAD1E5867AF009DCD42 /* AppDelegate.swift */,
+				F3F24CAF1E5867AF009DCD42 /* ViewController.swift */,
+				F3F24CB11E5867AF009DCD42 /* Main.storyboard */,
+				F3F24CB41E5867AF009DCD42 /* Assets.xcassets */,
+				F3F24CB61E5867AF009DCD42 /* LaunchScreen.storyboard */,
+				F3F24CB91E5867AF009DCD42 /* Info.plist */,
+			);
+			path = Makeshift;
+			sourceTree = "<group>";
+		};
+		F3F24CC11E5867AF009DCD42 /* MakeshiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F24CC21E5867AF009DCD42 /* MakeshiftTests.swift */,
+				F3F24CC41E5867AF009DCD42 /* Info.plist */,
+			);
+			path = MakeshiftTests;
+			sourceTree = "<group>";
+		};
+		F3F24CCC1E5867AF009DCD42 /* MakeshiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F24CCD1E5867AF009DCD42 /* MakeshiftUITests.swift */,
+				F3F24CCF1E5867AF009DCD42 /* Info.plist */,
+			);
+			path = MakeshiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F24CA91E5867AF009DCD42 /* Makeshift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F24CD21E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "Makeshift" */;
+			buildPhases = (
+				F3F24CA61E5867AF009DCD42 /* Sources */,
+				F3F24CA71E5867AF009DCD42 /* Frameworks */,
+				F3F24CA81E5867AF009DCD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Makeshift;
+			productName = Makeshift;
+			productReference = F3F24CAA1E5867AF009DCD42 /* Makeshift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F24CBD1E5867AF009DCD42 /* MakeshiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F24CD51E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "MakeshiftTests" */;
+			buildPhases = (
+				F3F24CBA1E5867AF009DCD42 /* Sources */,
+				F3F24CBB1E5867AF009DCD42 /* Frameworks */,
+				F3F24CBC1E5867AF009DCD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F24CC01E5867AF009DCD42 /* PBXTargetDependency */,
+			);
+			name = MakeshiftTests;
+			productName = MakeshiftTests;
+			productReference = F3F24CBE1E5867AF009DCD42 /* MakeshiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F24CC81E5867AF009DCD42 /* MakeshiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F24CD81E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "MakeshiftUITests" */;
+			buildPhases = (
+				F3F24CC51E5867AF009DCD42 /* Sources */,
+				F3F24CC61E5867AF009DCD42 /* Frameworks */,
+				F3F24CC71E5867AF009DCD42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F24CCB1E5867AF009DCD42 /* PBXTargetDependency */,
+			);
+			name = MakeshiftUITests;
+			productName = MakeshiftUITests;
+			productReference = F3F24CC91E5867AF009DCD42 /* MakeshiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F24CA21E5867AF009DCD42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = thamada;
+				TargetAttributes = {
+					F3F24CA91E5867AF009DCD42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					F3F24CBD1E5867AF009DCD42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3F24CA91E5867AF009DCD42;
+					};
+					F3F24CC81E5867AF009DCD42 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F3F24CA91E5867AF009DCD42;
+					};
+				};
+			};
+			buildConfigurationList = F3F24CA51E5867AF009DCD42 /* Build configuration list for PBXProject "Makeshift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F24CA11E5867AF009DCD42;
+			productRefGroup = F3F24CAB1E5867AF009DCD42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F24CA91E5867AF009DCD42 /* Makeshift */,
+				F3F24CBD1E5867AF009DCD42 /* MakeshiftTests */,
+				F3F24CC81E5867AF009DCD42 /* MakeshiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F24CA81E5867AF009DCD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F24CB81E5867AF009DCD42 /* LaunchScreen.storyboard in Resources */,
+				F3F24CB51E5867AF009DCD42 /* Assets.xcassets in Resources */,
+				F3F24CB31E5867AF009DCD42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CBC1E5867AF009DCD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CC71E5867AF009DCD42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F24CA61E5867AF009DCD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F24CB01E5867AF009DCD42 /* ViewController.swift in Sources */,
+				F3F24CAE1E5867AF009DCD42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CBA1E5867AF009DCD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F24CC31E5867AF009DCD42 /* MakeshiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F24CC51E5867AF009DCD42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F24CCE1E5867AF009DCD42 /* MakeshiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F24CC01E5867AF009DCD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F24CA91E5867AF009DCD42 /* Makeshift */;
+			targetProxy = F3F24CBF1E5867AF009DCD42 /* PBXContainerItemProxy */;
+		};
+		F3F24CCB1E5867AF009DCD42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F24CA91E5867AF009DCD42 /* Makeshift */;
+			targetProxy = F3F24CCA1E5867AF009DCD42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3F24CB11E5867AF009DCD42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F24CB21E5867AF009DCD42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3F24CB61E5867AF009DCD42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3F24CB71E5867AF009DCD42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3F24CD01E5867AF009DCD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3F24CD11E5867AF009DCD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F24CD31E5867AF009DCD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Makeshift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.Makeshift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F3F24CD41E5867AF009DCD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Makeshift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.Makeshift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F3F24CD61E5867AF009DCD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakeshiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.MakeshiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Makeshift.app/Makeshift";
+			};
+			name = Debug;
+		};
+		F3F24CD71E5867AF009DCD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakeshiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.MakeshiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Makeshift.app/Makeshift";
+			};
+			name = Release;
+		};
+		F3F24CD91E5867AF009DCD42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MakeshiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.MakeshiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Makeshift;
+			};
+			name = Debug;
+		};
+		F3F24CDA1E5867AF009DCD42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MakeshiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = thamada.MakeshiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Makeshift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F24CA51E5867AF009DCD42 /* Build configuration list for PBXProject "Makeshift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F24CD01E5867AF009DCD42 /* Debug */,
+				F3F24CD11E5867AF009DCD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F24CD21E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "Makeshift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F24CD31E5867AF009DCD42 /* Debug */,
+				F3F24CD41E5867AF009DCD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3F24CD51E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "MakeshiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F24CD61E5867AF009DCD42 /* Debug */,
+				F3F24CD71E5867AF009DCD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3F24CD81E5867AF009DCD42 /* Build configuration list for PBXNativeTarget "MakeshiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F24CD91E5867AF009DCD42 /* Debug */,
+				F3F24CDA1E5867AF009DCD42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3F24CA21E5867AF009DCD42 /* Project object */;
+}
